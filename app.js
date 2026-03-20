@@ -2,8 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-    console.log('Received a request to the root route');
-    const msg = 'Hello World!';
+    const msg = 'Works on my machine.';
     res.send(msg);
 });
 
